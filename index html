@@ -31,7 +31,7 @@
 
     <section class="download">
       <h2>Скачать SimpleLineCMS</h2>
-      <a href="download/simplelinecms.zip" class="btn-download" download>Скачать ZIP</a>
+      <a href="simplelinecms.zip" class="btn-download" download>Скачать ZIP</a>
     </section>
 
     <section class="how-to">
