@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f8fa;
+  color: #333;
+  margin: 0; padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #4a90e2;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 10px;
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #4a90e2;
+  margin-bottom: 15px;
+}
+
+.intro p,
+.features ul,
+.how-to ol {
+  font-size: 1.1em;
+}
+
+.features ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.download {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.btn-download {
+  background: #4a90e2;
+  color: white;
+  padding: 15px 40px;
+  font-size: 1.3em;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.btn-download:hover {
+  background: #357abd;
+}
+
+footer {
+  text-align: center;
+  padding: 25px 10px;
+  background: #e9ebee;
+  color: #777;
+  font-size: 0.9em;
+  margin-top: 60px;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2em;
+  }
+  .btn-download {
+    font-size: 1.1em;
+    padding: 12px 30px;
+  }
+}
