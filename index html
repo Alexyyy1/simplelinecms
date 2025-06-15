@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SimpleLineCMS — Простая и лёгкая CMS</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>SimpleLineCMS</h1>
+    <p>Легкая CMS без базы данных для простых одностраничных сайтов</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Что это?</h2>
+      <p>SimpleLineCMS — это минималистичная CMS, которая хранит контент в JSON-файлах и позволяет создавать красивые одностраничные сайты с секциями. Простая в использовании, не требует баз данных.</p>
+    </section>
+
+    <section class="features">
+      <h2>Основные возможности</h2>
+      <ul>
+        <li>Редактирование страниц через удобную админку</li>
+        <li>Хранение данных в JSON — никаких баз данных</li>
+        <li>Легкое добавление секций: текст, заголовки, изображения и кнопки</li>
+        <li>Адаптивный и современный дизайн</li>
+        <li>Бесплатно и открытое исходное ПО</li>
+      </ul>
+    </section>
+
+    <section class="download">
+      <h2>Скачать SimpleLineCMS</h2>
+      <a href="download/simplelinecms.zip" class="btn-download" download>Скачать ZIP</a>
+    </section>
+
+    <section class="how-to">
+      <h2>Как начать?</h2>
+      <ol>
+        <li>Скачайте архив</li>
+        <li>Распакуйте файлы на ваш веб-сервер с поддержкой PHP</li>
+        <li>Откройте `/admin/edit.php?page=home` для редактирования первой страницы</li>
+        <li>Создавайте и публикуйте ваши сайты легко и быстро!</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SimpleLineCMS — Бесплатная CMS для всех</p>
+  </footer>
+</body>
+</html>
