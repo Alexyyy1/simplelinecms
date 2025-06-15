@@ -1,11 +1,114 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8" />
-<meta name="verify-admitad" content="17e5457614" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>SimpleLineCMS — Простая и лёгкая CMS</title>
-<link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="verify-admitad" content=<meta name="verify-admitad" content="17e5457614"17e5457614" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SimpleLineCMS — Простая и лёгкая CMS</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #2e7d32;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .btn-download {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-download:hover {
+      background-color: #388E3C;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* ✅ Баннер AliExpress */
+    .affiliate-banner {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .affiliate-banner a {
+      display: inline-block;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .affiliate-banner a:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    }
+
+    .affiliate-banner img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    @media (max-width: 700px) {
+      header h1 {
+        font-size: 2em;
+      }
+      .btn-download {
+        padding: 10px 18px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -35,12 +138,21 @@
       <a href="simplelinecms.zip" class="btn-download" download>Скачать ZIP</a>
     </section>
 
+    <!-- ✅ Стилизованный баннер AliExpress -->
+    <div class="affiliate-banner">
+      <!-- admitad.banner: 45zdaqe3i317e545761416525dc3e8 AliExpress WW -->
+      <a target="_blank" rel="nofollow" href="https://rzekl.com/g/45zdaqe3i317e545761416525dc3e8/?i=4">
+        <img src="https://ad.admitad.com/b/45zdaqe3i317e545761416525dc3e8/" alt="AliExpress WW" width="640" height="150" />
+      </a>
+      <!-- /admitad.banner -->
+    </div>
+
     <section class="how-to">
       <h2>Как начать?</h2>
       <ol>
         <li>Скачайте архив</li>
         <li>Распакуйте файлы на ваш веб-сервер с поддержкой PHP</li>
-        <li>Откройте `/admin/edit.php?page=home` для редактирования первой страницы</li>
+        <li>Откройте <code>/admin/edit.php?page=home</code> для редактирования первой страницы</li>
         <li>Создавайте и публикуйте ваши сайты легко и быстро!</li>
       </ol>
     </section>
@@ -50,4 +162,4 @@
     <p>© 2025 SimpleLineCMS — Бесплатная CMS для всех</p>
   </footer>
 </body>
-</html>
+      </html>
